@@ -1,0 +1,19 @@
+[project]
+name = "pac-man"
+version = "0.1.0"
+description = "mleitao's and ohaponiu's pac-man project"
+requires-python = ">=3.10"
+dependencies = ["mazegenerator", "pygame-ce"]
+
+[dependency-groups]
+dev = ["flake8", "mypy", "pyinstaller"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+mazegenerator = { path = "mazegenerator-2.1.0-py3-none-any.whl" }
+
+[[tool.mypy.overrides]]
+module = ["mazegenerator", "mazegenerator.*"]
+ignore_missing_imports = true
