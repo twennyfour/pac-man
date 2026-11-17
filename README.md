@@ -22,6 +22,10 @@
 
 // TODO - Explain how the highscore system works and why implement it this way
 
+# Maze Generation
+
+// TODO - Explain how mazegenerator package is used to generate mazes
+
 # Implementation
 
 // TODO - Technical summary of implementation
