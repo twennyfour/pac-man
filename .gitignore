@@ -1,0 +1,7 @@
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.venv/
+.cache/
+mazegenerator-2.1.0-py3-none-any.whl
+*.pdf
